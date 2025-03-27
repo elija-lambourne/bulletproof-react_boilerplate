@@ -1,0 +1,8 @@
+﻿version: '3.4'
+name: 'bulletproof-react'
+services:
+  myapp:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+    env_file:
+      - secrets/.env

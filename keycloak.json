@@ -1,0 +1,5 @@
+{
+  "authority": "https://keycloak.lambourne.at/",
+  "redirect_uri": "http://localhost:5173/",
+  "client_id": "react-auth"
+}

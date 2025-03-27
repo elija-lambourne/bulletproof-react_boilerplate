@@ -1,0 +1,8 @@
+﻿version: '3.4'
+name: 'bulletproof-react'
+services:
+  myapp:
+    build:
+      context: .
+    ports:
+      - '80:80'
